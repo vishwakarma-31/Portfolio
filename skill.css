@@ -1,0 +1,99 @@
+/* Enhanced Styling for My Skills Page */
+body{
+    font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+background: #f9f9f9;
+}
+.title {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background: #ff357a;
+color: white;
+font-size: 2.5rem;
+font-weight: bold;
+text-align: center;
+padding: 20px;
+z-index: 999;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.skills-content {
+margin-top: 120px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding-left: 50px;
+padding-right: 30px;
+}
+.column.left, .column.right {
+width: 100%;
+margin-bottom: 30px;
+}
+.bars {
+margin-bottom: 25px;
+}
+.info {
+display: flex;
+justify-content: space-between;
+font-weight: 600;
+}
+.line {
+height: 8px;
+background: #ddd;
+border-radius: 5px;
+margin-top: 5px;
+position: relative;
+}
+.line::after {
+content: '';
+position: absolute;
+height: 100%;
+left: 0;
+top: 0;
+background: #ff357a;
+border-radius: 5px;
+}
+.line.html::after { width: 90%; }
+.line.css::after { width: 60%; }
+.line.js::after { width: 80%; }
+.line.ts::after { width: 70%; }
+.line.tailwind::after { width: 75%; }
+.line.bootstrap::after { width: 75%; }
+.line.react::after { width: 75%; }
+.line.next::after { width: 70%; }
+.line.node::after { width: 70%; }
+.line.express::after { width: 70%; }
+.line.mongo::after { width: 65%; }
+.line.postgres::after { width: 60%; }
+.line.redis::after { width: 55%; }
+.line.firebase::after { width: 60%; }
+.line.git::after { width: 85%; }
+.line.postman::after { width: 70%; }
+.line.docker::after { width: 50%; }
+.line.vercel::after { width: 75%; }
+.line.aws::after { width: 60%; }
+.line.python::after { width: 65%; }
+.line.api::after { width: 85%; }
+.line.socket::after { width: 70%; }
+.line.jwt::after { width: 80%; }
+.line.prisma::after { width: 70%; }
+.line.cicd::after { width: 70%; }
+.line.stripe::after { width: 60%; }
+.line.seo::after { width: 75%; }
+.line.responsive::after { width: 90%; }
+.line.uiux::after { width: 75%; }
+a.back-home {
+display: inline-block;
+margin: 40px auto 20px 50px;
+padding: 10px 25px;
+background: #ff357a;
+color: white;
+border-radius: 25px;
+text-decoration: none;
+font-weight: bold;
+}
+.carousel {
+padding-left: 50px;
+}
